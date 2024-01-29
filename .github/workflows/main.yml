@@ -1,0 +1,17 @@
+name: End-to-end tests
+on: 
+  push:
+   branches:
+    - 'main'
+  pull_request:
+    branches:
+    - 'main'
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    
+    steps:
+      - name: Checkout
+        run: echo "Hello world"
+            
