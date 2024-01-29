@@ -1,0 +1,35 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy_todo": "npx cypress run --spec cypress/e2e/1-getting-started/todo.cy.js",
+    "cy_actions": "npx cypress run --spec cypress/e2e/2-advanced-examples/actions.cy.js",
+    "cy_aliasing": "npx cypress run --spec cypress/e2e/2-advanced-examples/aliasing.cy.js ",
+    "cy_assertions": "npx cypress run --spec cypress/e2e/2-advanced-examples/assertions.cy.js",
+    "cy_connectors": "npx cypress run --spec cypress/e2e/2-advanced-examples/connectors.cy.js ",
+    "cy_cookies": "npx cypress run --spec cypress/e2e/2-advanced-examples/cookies.cy.js ",
+    "cy_cypress_api": "npx cypress run --spec cypress/e2e/2-advanced-examples/cypress_api.cy.js",
+    "cy_filed": "npx cypress run --spec cypress/e2e/2-advanced-examples/files.cy.js",
+    "cy_location": "npx cypress run --spec cypress/e2e/2-advanced-examples/location.cy.js",
+    "cy_misc": "npx cypress run --spec cypress/e2e/2-advanced-examples/misc.cy.js",
+    "cy_navigation": "npx cypress run --spec cypress/e2e/2-advanced-examples/navigation.cy.js",
+    "cy_network_requests": "npx cypress run --spec cypress/e2e/2-advanced-examples/network_requests.cy.js",
+    "cy_querying": "npx cypress run --spec cypress/e2e/2-advanced-examples/querying.cy.j",
+    "cy_spies_stubs_clocks": "npx cypress run --spec cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js",
+    "cy_storage": "npx cypress run --spec cypress/e2e/2-advanced-examples/storage.cy.js",
+    "cy_traversal": "npx cypress run --spec cypress/e2e/2-advanced-examples/traversal.cy.js",
+    "cy_utilities": "npx cypress run --spec cypress/e2e/2-advanced-examples/utilities.cy.js",
+    "cy_viewport": "npx cypress run --spec cypress/e2e/2-advanced-examples/viewport.cy.js",
+    "cy_waiting": "npx cypress run --spec cypress/e2e/2-advanced-examples/waiting.cy.js",
+    "cy_window": "npx cypress run --headed --browser chrome --spec cypress/e2e/2-advanced-examples/window.cy.js"    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
